@@ -1,0 +1,125 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+header{
+    margin-bottom: 0px;
+    padding-bottom: 6px;
+    /* background-image: linear-gradient(to bottom, #393833, #EC943B, #DED64D); */
+    background-color: #393833;
+    color: rgb(233, 233, 233);
+}
+
+#links{
+    float: right;
+    text-align: right;
+    line-height: 75px;
+}
+
+header > div > nav > a{
+    padding: 4px;
+    text-decoration: none;
+    color: white;
+    font-size: 8.4px;
+}
+
+#container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 4px;
+    line-height: 80px;
+}
+
+
+main{
+    text-align: justify;
+    /* background-color: black; */
+}
+
+
+
+#equipe{
+    background-image: url(imagens/Pessoal-p.jpg);
+    width: 444px;
+    height: 200px;
+    margin-bottom: -42px;
+
+}
+
+#Cesar{
+    background-image: url(imagens/Cesar-p.png);
+    width: 444px;
+    height: 557px;
+    margin: 0px 0px 0px -71px;
+}
+
+#conteudo{
+    margin: 0px 10px 10px 21px;
+    border-radius: 15px;
+    padding: 20px;
+    height: 100%;
+    width: 300px;
+    padding: 50px;
+    text-align: center;
+}
+
+.Apresentacao{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 430px;
+}
+
+.grupo{
+    background-color: white;
+    border-radius: 10px;
+    width: 430px;
+    margin-left: -71px;
+}
+
+.titulo{
+    font-size: 18px;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.texto{
+    font-family: Arial, Helvetica, sans-serif !important;
+    text-align: justify;
+    padding: 6px;
+}
+
+#juntos{
+    background-image: url(imagens/juntos-p.jpg);
+    width: 444px;
+    height: 595px;
+    margin: 0px 0px 0px -71px;
+
+}
+
+
+#maps{
+    border-radius: 0px;
+    width: 444px;
+}
+
+footer{
+    background-color: #393833;
+}
+
+#informacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+#simbolos{
+    float: left;
+    text-align: left;
+}
