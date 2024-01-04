@@ -113,6 +113,7 @@ main{
 footer{
     background-color: #393833;
     width: 437px;
+    height: 109px;
 }
 
 #informacao{
@@ -121,13 +122,14 @@ footer{
     justify-content: flex-end;
     align-items: center;
     background-color: #393833;
-
-    position: absolute;
-    top: 2115px;
-    left: 165px;
 }
 
 footer > div > a{
     text-decoration: none;
     color: black;
+}
+
+#logo{
+    position: absolute;
+    top: 2132px;
 }
