@@ -46,7 +46,7 @@ main{
 
 #equipe{
     background-image: url(imagens/Pessoal-p.jpg);
-    width: 444px;
+    width: 437px;
     height: 200px;
     margin-bottom: -42px;
 
@@ -54,7 +54,7 @@ main{
 
 #Cesar{
     background-image: url(imagens/Cesar-p.png);
-    width: 444px;
+    width: 441px;
     height: 557px;
     margin: 0px 0px 0px -71px;
 }
@@ -65,7 +65,7 @@ main{
     padding: 20px;
     height: 100%;
     width: 300px;
-    padding: 50px;
+    padding: 45px;
     text-align: center;
 }
 
@@ -91,12 +91,12 @@ main{
 .texto{
     font-family: Arial, Helvetica, sans-serif !important;
     text-align: justify;
-    padding: 6px;
+    padding: 5px;
 }
 
 #juntos{
     background-image: url(imagens/juntos-p.jpg);
-    width: 444px;
+    width: 437px;
     height: 595px;
     margin: 0px 0px 0px -71px;
 
@@ -105,7 +105,7 @@ main{
 
 #maps{
     border-radius: 0px;
-    width: 444px;
+    width: 442px;
 }
 
 footer{
@@ -117,9 +117,12 @@ footer{
     flex-direction: column;
     justify-content: flex-end;
     align-items: center;
-}
 
-#simbolos{
-    float: left;
-    text-align: left;
+
 }
+/* 
+#simbolos{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+} */
