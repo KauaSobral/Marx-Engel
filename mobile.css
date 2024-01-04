@@ -115,12 +115,6 @@ footer{
     width: 437px;
 }
 
-#simb{
-    display: flex;
-    flex-direction: column;
-    align-items: start;
-}
-
 #informacao{
     display: flex;
     flex-direction: column;
